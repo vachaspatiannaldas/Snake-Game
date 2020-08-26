@@ -1,0 +1,80 @@
+.grid {
+    width: 200px;
+    height: 200px;
+    margin-left: 650px;
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+
+.snake {
+    background: url(images/green.png);
+}
+
+.apple {
+    background: url(images/apple1.png);
+}
+
+.start {
+    background-color: yellow;
+    border-style: none;
+    margin-left: 700px;
+    width: 100px;
+    height: 30px;
+}
+
+.score {
+    margin-left: 710px;
+}
+
+body {
+    background-color: yellowgreen;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .start {
+        margin-left: 400px;
+    }
+    .score {
+        margin-left: 410px;
+    }
+    .grid {
+        margin-left: 350px;
+    }
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    .start {
+        margin-left: 300px;
+    }
+    .score {
+        margin-left: 310px;
+    }
+    .grid {
+        margin-left: 250px;
+    }
+  }
+
+
+ @media only screen and (max-width: 300px) {
+    .start {
+        margin-left: 140px;
+    }
+    .score {
+        margin-left: 150px;
+    }
+    .grid {
+        margin-left: 90px;
+    }
+  }
