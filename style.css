@@ -43,36 +43,61 @@ h1 {
 
 @media only screen and (max-width: 800px) {
     .start {
-        margin-left: 400px;
+        margin-left: 350px;
     }
     .score {
-        margin-left: 410px;
+        margin-left: 360px;
     }
     .grid {
-        margin-left: 350px;
+        margin-left: 300px;
     }
   }
 
 
   @media only screen and (max-width: 600px) {
     .start {
-        margin-left: 300px;
+        margin-left: 250px;
     }
     .score {
-        margin-left: 310px;
+        margin-left: 260px;
     }
     .grid {
-        margin-left: 250px;
+        margin-left: 200px;
     }
   }
 
 
- @media only screen and (max-width: 300px) {
+ @media only screen and (max-width: 320px) {
+    .start {
+        margin-left: 90px;
+    }
+    .score {
+        margin-left: 10px;
+    }
+    .grid {
+        margin-left: 40px;
+    }
+  }
+
+
+  @media only screen and (max-width: 375px) {
     .start {
         margin-left: 140px;
     }
     .score {
         margin-left: 150px;
+    }
+    .grid {
+        margin-left: 75px;
+    }
+  }
+
+  @media only screen and (max-width: 425px) {
+    .start {
+        margin-left: 150px;
+    }
+    .score {
+        margin-left: 160px;
     }
     .grid {
         margin-left: 90px;
